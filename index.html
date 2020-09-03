@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Fonts link -->
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  <!-- CSS Links-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>JS/JQ</title>
+   <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a0d2968dea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <section>
+   <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+         <div class="js">
+           <h1 class="bg-info">Click the button to change the text</h1>
+           <button type="button" class="btn btn-info btn-block" onclick="textChange()">Click me</button>
+           <h2 class="m-4" id="h2">Lorem ipsum dolor, sit amet.</h2>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+
+
+
+
+  
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS, lastly Custom js-->
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <script type="text/javascript">
+    function textChange() {
+      document.getElementById('h2').innerHTML = "Hello Everyone!";
+    }
+  </script>
+
+</body>
+
+</html>
